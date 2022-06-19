@@ -27,7 +27,7 @@ public class CalculatorTest {
 	@Test
 	public void testMultiply() {
 		int actual = calc.multiply(3, 5);
-		int expected =  16;
+		int expected =  15;
 		assertEquals(expected, actual);
 	}
 
